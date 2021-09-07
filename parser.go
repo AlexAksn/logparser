@@ -28,7 +28,6 @@ func init() {
 
 func main() {
 	//var pattern = "./*/20210803T155*.log.gz"
-	//var pattern = "./*/20210803T155750Z_20210803T155820Z_63a33384.log.gz"
 	flag.Parse()
 
 	files, err := filepath.Glob(*inputPattern)
